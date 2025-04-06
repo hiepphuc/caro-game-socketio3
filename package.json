@@ -1,0 +1,17 @@
+{
+    "name": "caro-game-socketio",
+    "version": "1.0.0",
+    "description": "A simple caro game with socket.io",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon sever.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
